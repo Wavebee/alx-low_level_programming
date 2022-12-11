@@ -2,13 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/** main - Entry point
- *
- * Description: 'get a random number and print number'
- *
+/** main - Entry point *
+ * Description: 'get a random number and print number' *
  *  Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int n;
