@@ -2,14 +2,19 @@
 #include <time.h>
 #include <stdio.h>
 
-/** main - print a random num
- *  Return: Always 0 
+/*
+ ** main - Entry point
+ *
+ * Description: 'get a random number and print number'
+ *
+ *  Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int n;
-	
-	srand(time(0));
+
+	srand(time)(0));
 	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
