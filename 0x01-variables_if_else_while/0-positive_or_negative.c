@@ -2,8 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/** main - print a random number
- * Description: 'get a random number and print number' 
+/** main - print a random num 
  *  Return: Always 0 
  */
 int main(void)
