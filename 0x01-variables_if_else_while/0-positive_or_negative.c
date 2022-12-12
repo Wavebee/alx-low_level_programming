@@ -9,7 +9,7 @@
  *
  * Return: Always 0 (Success)
  */
-int 0-positive_or_negative.c(void)
+int random numbers(void)
 {
 	int n;
 
