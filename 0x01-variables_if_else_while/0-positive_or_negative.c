@@ -8,7 +8,7 @@
  *  main - Entry point
  * Return: Always 0 (Success)
  */
-int (void)
+int(char *)
 {
 	int n;
 
