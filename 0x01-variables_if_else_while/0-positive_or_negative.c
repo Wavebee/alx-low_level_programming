@@ -3,10 +3,10 @@
 #include <stdlib.h>
 /* more headers goes there */
 /* betty style doc for function goes there */
-
 /**
  *  main - Entry point *
- * Description: get a random number and print number *
+ * Description: get a random number and print number
+ *
  * Return: Always 0 (Success)
  */
 int 0-positive_or_negative.c(void)
