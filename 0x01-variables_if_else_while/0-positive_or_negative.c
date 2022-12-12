@@ -9,7 +9,7 @@
  *
  * Return: Always 0 (Success)
  */
-int random numbers(void)
+int random(void)
 {
 	int n;
 
