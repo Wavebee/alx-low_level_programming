@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - Main block
- * Description: Write a program that prints all possible 
+ * Description:Write a program that prints all possible
  * different combinations of two digits
  * Numbers must be seperated by ,, followed by a space
  * The two digits must be different
@@ -42,8 +42,10 @@ int main(void)
 
 		}
 		d++;
+
 	}
-	 putchar('\n');
-	 return (0);
+	putchar('\n');
+
+	return (0);
 
 }
