@@ -1,5 +1,7 @@
 #include "main.h"
 
+void _puts(char *str);
+
 /**
  * main - check the code
  *
