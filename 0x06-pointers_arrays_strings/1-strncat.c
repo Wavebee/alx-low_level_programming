@@ -3,7 +3,7 @@
 /**
  * _strncat: - concatenates two strings using at most
  *
- * an inputted number of bytes from src.
+ * Description: an inputted number of bytes from src.
  *
  * @dest: The string to be appended upon.
  *
@@ -11,16 +11,18 @@
  *
  * @n: The number of bytes from src to be appended to dest.
  *
- * Return: a pointer to the resulting string dest.
+ * Return: dest.
  */
-
 char *_strncat(char *dest, char *src, int n)
+
 {
 	int i;
 
 	int j;
 
+
 	i = 0;
+
 
 	while (dest[i] != '\0')
 	{
@@ -35,11 +37,11 @@ char *_strncat(char *dest, char *src, int n)
 	{
 
 	dest[i] = src[j];
-
 	i++;
 	j++;
+
 	}
 	dest[i] = '\0';
-	return(dest);
+	return (dest);
 
 }
